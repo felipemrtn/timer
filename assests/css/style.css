@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.section {
+    max-width: 450px;
+    min-height: 150px;
+    margin: 120px auto auto auto;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.botoes button {
+    border: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    padding: 5px;
+    margin: 0 2px;
+}
+
+.botoes button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.relogio {
+    margin: 15px 0;
+    font-size: 35px;
+}
+
+.pausado {
+    color: red;
+}
